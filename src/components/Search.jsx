@@ -3,11 +3,11 @@
 
 const Search = ( {  searchTerm, setSearchTerm } ) => {
     return (
-
         <div className="search">
             <div>
                 <img src="./search.svg" alt="Search" />
                 <input
+                    className="text-white"
                     type="text"
                     placeholder="Search"
                     value={searchTerm}
